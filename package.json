@@ -7,7 +7,7 @@
   "author": "Matt Cowan <mcowan@atlassian.com>",
   "license": "MIT",
   "engines": {
-    "node": "12"
+    "node": "10.16.0"
   },
   "scripts": {
     "build": "parcel build src/html/*.html",
