@@ -12,11 +12,9 @@ window.TrelloPowerUp.initialize({
         .then(function(card) {
           if (card.idList == "5b09bf74146fca0cbc15f1ab") {        // Id for Terminer list
             DoneCard.push(card);
+            console.log(DoneCard);
           }
           return DoneCard;
         })
-        .then(function() {
-          console.log(DoneCard);
-        });
-  }
+    }
 });
