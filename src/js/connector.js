@@ -100,14 +100,7 @@ const getWeatherBadges = (t, opts) =>
 window.TrelloPowerUp.initialize(
   {
     'card-badges': getWeatherBadges,
-    'card-detail-badges': getWeatherBadges,
-    'show-settings': t => {
-      return t.popup({
-        title: t.localizeKey('weather-settings'),
-        url: './settings.html',
-        height: 281,
-      });
-    },
+    'card-detail-badges': getWeatherBadges
   },
   {
     localization: localizationSettings,
