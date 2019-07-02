@@ -1,4 +1,4 @@
-console.log('Simple Kamban it alive');
+console.log('Simple Kamban it alive 2');
 
 var numberOfElementTotal = 0;
 var numberOfElementToday = 0;
